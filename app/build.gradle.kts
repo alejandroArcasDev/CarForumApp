@@ -73,6 +73,8 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
+    implementation("androidx.core:core-splashscreen:1.0.1")
+
     // Arrow
     implementation("io.arrow-kt:arrow-core:1.2.4")
     implementation("io.arrow-kt:arrow-fx-coroutines:1.2.4")
@@ -94,7 +96,6 @@ dependencies {
     // For local unit tests
     testImplementation("com.google.dagger:hilt-android-testing:2.51.1")
     kaptTest("com.google.dagger:hilt-compiler:2.51.1")
-
 
     // Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.11.0")

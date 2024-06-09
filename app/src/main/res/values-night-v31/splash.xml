@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="App.Starting.Theme" parent="Theme.SplashScreen">
+        <item name="android:windowSplashScreenBackground">#363636</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_carforum_night</item>
+        <item name="postSplashScreenTheme">@style/Theme.CarForumApp</item>
+    </style>
+</resources>
